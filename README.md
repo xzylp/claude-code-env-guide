@@ -39,6 +39,7 @@ curl --noproxy '*' https://claude.ai/cdn-cgi/trace
 | **电脑稳但一登手机就弹验证** | 电脑和手机出口不在同一地区/IP | 双端共用同一条固定住宅线路，同步时区；iPhone 用严格模式用完即关 | [双端稳定使用 6 个好习惯](https://xiaochengai.net/guides/multi-device-habits.html?from=github) |
 | **国产安卓装不上官方 Claude App** | 缺少 Google 服务（GMS）与 Play 商店 | 小米/OPPO/vivo/荣耀可部署 GMS（华为限鸿蒙 4.2 及以下），避免安装第三方改包 | [安卓 Google 三件套部署指南](https://xiaochengai.net/guides/android-google-play-claude.html?from=github) |
 | **提示 `Your account has been disabled`** | IP 污染连坐、支付反复拒付、同浏览器残留指纹 | 误封可先提交一次申诉；重开新号前务必先换干净住宅环境 + 独立指纹浏览器 | [封号申诉与防二次封号](https://xiaochengai.net/guides/claude-banned-appeal.html?from=github) |
+| **Codex CLI 安装报错 / OAuth 卡死 / 403** | Node 版本过低、1455 端口回调失败、终端出口未接管或机房 IP | 升级 Node 20+ / 用 `--device-auth`；检查 `chatgpt.com/cdn-cgi/trace` 并启用智能分流 | [Codex CLI 安装与排障指南](https://xiaochengai.net/guides/codex-cli-install-fix.html?from=github) |
 
 ---
 
